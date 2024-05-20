@@ -1,12 +1,4 @@
-/*
- *=====================
- *   Sudoku Solver
- *=====================
- *
- * Started On - May 15th, 2019
- * Author - Can Koz
- * Objective - Takes in Sudoku puzzles and outputs the solution.
-*/
+
 
 #include<iostream>
 #include<fstream>
@@ -31,14 +23,7 @@ class SudokuGrid{
 		menu();
 	}
 
-	/**
-	  *	@desc Displays a menu to the user when the SudokuGrid objects in instantiated
-	  *	(which is basically at the start of the program) to display all possible options
-	  *	from the user.
-	  *
-	  *	@param none
-	  *	@return none
-	*/
+
 	private:void menu(){
 
 		cout<<"\n======================\n";
@@ -79,8 +64,7 @@ class SudokuGrid{
 
 	/**
 	  *	@desc Reads the values for the Sudoku Grid cell-by-cell.
-	  *	@param none
-	  *	@return none
+	  
 	*/
 	private:void readFromConsole(){
 		cout<<"\nEnter the specified value when prompted.\n";
@@ -114,8 +98,7 @@ class SudokuGrid{
 
 	/**
 	  *	@desc Reads the values from a file containing the grid values seperated by whitespaces.
-	  *	@param none
-	  *	@return none
+	
 	*/
 	private:void readFromFile(){
 
